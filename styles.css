@@ -17,27 +17,29 @@ h1 {
 h2 {
     color: #7f5af0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-size: 3.0rem;
     font-weight: normal;
     padding-bottom: 10px;
 }
 
 h3 {
+    font-size: 2.1rem;
     color: #2cb67d;
     font-family: 'Montserrat', sans-serif;
 }
 
 p {
+    font-size: x-large;
     line-height: 2;
     color: #94a1b2;
-    font-family: 'Quattrocento Sans',sans-serif;
+    font-family: 'Quattrocento Sans', sans-serif;
 }
 
 hr {
     border: dotted #EAF6F6 6px;
     border-bottom: none;
     width: 4%;
-    margin: 100px auto;
+    margin: 150px auto;
 }
 
 a {
@@ -51,33 +53,36 @@ a:hover {
     color: #EAF6F6;
 }
 
+.des {
+    margin-left: 30px;
+    ;
+}
+
+.com {
+    margin-top: 30px;
+}
+
+.dev {
+    font-family: 'Cutive Mono', monospace;
+    color: #abd1c6;
+}
+
 .top-container {
     position: relative;
     padding-top: 100px;
 }
 
-.dev{
-    font-family: 'Cutive Mono',monospace;
-    color: #abd1c6;
-}
-
 .middle-container {
-    margin: 100px auto 25px auto;
+    margin: 100px auto 50px auto;
 }
 
 .bottom-container {
     padding: 50px 0 20px;
 }
 
-.skill-row-1 {
+.skill-row {
     width: 50%;
-    margin: 100px auto 150px auto;
-    text-align: left;
-}
-
-.skill-row-2 {
-    width: 50%;
-    margin: 100px auto 150px auto;
+    margin: 100px auto 100px auto;
     text-align: left;
 }
 
@@ -97,13 +102,13 @@ a:hover {
     padding: 20px 0;
 }
 
-.cld1{
+.cld1 {
     position: absolute;
     right: 300px;
     top: 40px;
 }
 
-.cld2{
+.cld2 {
     position: absolute;
     left: 250px;
     bottom: 300px;
@@ -113,12 +118,14 @@ a:hover {
     width: 25%;
     float: left;
     margin-right: 30px;
+    border-radius: 130px;
 }
 
 .fun-img {
     width: 25%;
     float: right;
     margin-left: 30px;
+    border-radius: 130px;
 }
 
 .btn {
@@ -148,9 +155,6 @@ a:hover {
     text-decoration: none;
 }
 
-.me {
-    margin-top: 50px;
-    height: 150px;
-    width: 150px;
-    border-radius: 90px;
+.me{
+    border-radius: 100px;
 }
